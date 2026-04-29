@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ROS / Catkin
+build/
+devel/
+install/
+logs/
+
+# ROS generated maps / bags
+*.bag
+*.active
+*.yaml~
+*.pgm~
+
+# Gazebo temporary files
+*.world~
+*.model~
+
+# Linux temp files
+*~
+*.swp
+*.swo
+
+# VS Code local settings (optional)
+.vscode/
+
+# macOS junk
+.DS_Store
