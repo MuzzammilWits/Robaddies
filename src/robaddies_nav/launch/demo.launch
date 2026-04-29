@@ -1,0 +1,15 @@
+<launch>
+  <!-- Start Gazebo world -->
+  <env name="TURTLEBOT_GAZEBO_WORLD_FILE" value="$(find robaddies_nav)/../../assignment.world"/>
+
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"/>
+
+  <!-- Start gmapping -->
+  <include file="$(find turtlebot_gazebo)/launch/gmapping_demo.launch"/>
+
+  <!-- Start our navigator -->
+  <node pkg="robaddies_nav"
+        type="navigator.py"
+        name="navigator"
+        output="screen"/>
+</launch>
