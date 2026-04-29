@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robaddies_nav</name>
+  <version>0.0.1</version>
+  <description>Navigation package for Robotics SurveillanceBot assignment</description>
+
+  <maintainer email="you@example.com">Robaddies</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>gazebo_msgs</depend>
+  <depend>std_msgs</depend>
+</package>
