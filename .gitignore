@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+.catkin_workspace
+
 # Distribution / packaging
 .Python
 build/
