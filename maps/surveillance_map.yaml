@@ -1,4 +1,4 @@
-image: surveillance_map2.pgm
+image: surveillance_map.pgm
 resolution: 0.050000
 origin: [-23.3, -13.5, 0.0]
 negate: 0
